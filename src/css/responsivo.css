@@ -1,0 +1,9 @@
+@media (max-width:600px) {
+    body {
+        background-position: right 40vw bottom 35vh, left 40vw top 40vh;
+    }
+
+    .container {
+        margin: 30% 0;
+    }
+}

@@ -1,0 +1,73 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: right 60vw bottom 45vh, left 40vw top 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    margin: 40% 0;
+    background-color: #fff;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.cabecalho-do-container svg {
+    width: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: block;
+}
+
+.cabecalho-do-container img {
+    margin-top: -15%;
+    border: solid #fff 4px;
+    border-radius: 100%;
+}
+
+.texto {
+    color: hsl(229, 23%, 23%);
+}
+
+.texto h1 strong {
+    color: hsl(0, 0%, 59%);
+}
+
+.texto h2 {
+    color: hsl(227, 10%, 46%);
+    margin: 5% 0;
+    font-size: medium;
+}
+
+.texto .container-para-lista ul {
+    margin-top: 5%;
+    display: inline-flex;
+}
+
+.texto .container-para-lista ul h3 {
+    color: hsl(229, 23%, 23%);
+    font-size: larger;
+}
+
+.texto .container-para-lista ul li {
+    color: hsl(227, 10%, 46%);
+    list-style: none;
+    margin: 10px;
+}
+
+.texto .container-para-lista ul li p {
+    font-size: small;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
